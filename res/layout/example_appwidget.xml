@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:foreground="@drawable/appwidget_bg" >
+
+	<ImageView
+	    android:id="@+id/imageViewWidget"
+	    android:layout_width="68dp"
+	    android:layout_height="68dp"
+	    android:src="@drawable/day_lg"
+	    android:layout_margin="8dp"
+	    />
+
+	<TextView
+	    android:id="@+id/textViewLocation"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/imageViewWidget"
+	    android:layout_alignParentTop="true"
+	    android:textColor="#FFFFFF"
+	    android:layout_marginTop="4dp"
+	    android:text="Shanghai"/>
+	
+	<TextView
+	    android:id="@+id/textViewDesc"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/imageViewWidget"
+	    android:layout_below="@id/textViewLocation"
+	    android:layout_alignParentBottom="true"
+	    android:textColor="#FFFFFF"
+	    android:layout_marginTop="4dp"
+	    android:text="Clear"/>
+
+	<TextView
+	    android:id="@+id/textViewTemp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/textViewLocation"
+	    android:layout_alignParentTop="true"
+	    android:textColor="#BBBBBB"
+	    android:layout_margin="4dp"
+	    android:text="temp"
+	    />
+
+</RelativeLayout>
