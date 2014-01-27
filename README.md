@@ -22,3 +22,11 @@ Feature
 -----------
 1. Builder pattern for params used for construct query string
 2. Use XML PullParser to process XML response from API call for cheap memory footprint and fast xml processing on mobile device.
+
+See also
+--------
+1. [NodeJS client for WWO API](https://github.com/michaelben/nodejswwo)
+2. [Javascript client for WWO API](https://github.com/michaelben/jswwo)
+3. [Java client for WWO API](https://github.com/michaelben/JavaWWO)
+4. [Android client for WWO API](https://github.com/michaelben/AndroidWWO)
+5. [Python client for WWO API](https://github.com/michaelben/pywwo)
